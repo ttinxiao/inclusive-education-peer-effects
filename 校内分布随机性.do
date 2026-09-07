@@ -98,4 +98,4 @@ collabels("Freq." "Percent") ///
 nonumber nomtitle ///
 addnotes("Notes: Sample includes 7th-grade classes only.")
 
-di "✅ Table A2 已成功输出！"
+di "Table A2 已成功输出！"
