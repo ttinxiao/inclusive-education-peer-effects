@@ -106,7 +106,7 @@ estpost summarize `compare_vars' if extreme
 eststo excluded
 
 esttab retained excluded using "Table_X_Excluded_Characteristics.rtf", replace ///
-    cells("mean(fmt(2)) sd(fmt(2))") ///
+    cells("mean(fmt(3)) sd(fmt(3))") ///
     mtitles("Retained (20-60)" "Excluded (<20 or >60)") ///
     title("Characteristics of Retained and Excluded Observations") ///
     nonumber ///
@@ -140,4 +140,4 @@ esttab robust2_model_1 robust2_model_2 robust2_model_3 using "稳健性检验2_�
     mlabels("Parent-Child Interaction" "Relationship Quality" "Parental Investment") ///
     addnotes("Notes: Outcome variables are standardized (mean=0, SD=1). Classrooms with size <20 or >60 are excluded. School fixed-effects and full set of controls included. Standard errors clustered at school level. * p<0.1, ** p<0.05, *** p<0.01")
 
-di "✅ 稳健性检验2 运行完成！"
+di "稳健性检验2 运行完成！"
