@@ -168,7 +168,7 @@ eststo nonmixed
 
 * 输出表格
 esttab mixed nonmixed using "Table_A3_混合学校与非混合学校学生特征对比.rtf", replace ///
-    cells("mean(fmt(2)) sd(fmt(2))") ///
+    cells("mean(fmt(3)) sd(fmt(3))") ///
     mtitles("Mixed-school students" "Other students") ///
     title("Table A3: Characteristics of Students in Mixed versus Non-Mixed Schools") ///
     nonumber ///
